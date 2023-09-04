@@ -49,7 +49,7 @@ export async function getStaticPaths() {
   const filenames = fs.readdirSync(postsDirectory)
   const paths = filenames.map((name) => ({ params: { slug: name.replace('.mdx', '') } }))
   // dont get paths for cms posts, instead, let fallback handle it
-  return { paths, fallback: true }
+  return { paths, fallback: false}
 }
 
 export async function getStaticProps({ params, preview }) {
