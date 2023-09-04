@@ -4,8 +4,8 @@ A Notion-like app, built using NextJS, EverGreen-ui, and MongoDB; deployed on Ve
 
 ## Run locally
 
-`yarn install`
-`yarn dev`
+*`yarn install`
+*`yarn dev`
 
 ## Requirements:
 * **Node**:16.xx
